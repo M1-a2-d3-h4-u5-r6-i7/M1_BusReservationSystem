@@ -1,5 +1,6 @@
 name: cppcheck-action
-on: [push]
+on: 
+  push:
 
 jobs:
   build:
