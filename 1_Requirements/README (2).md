@@ -114,10 +114,23 @@ HOW:This project is implemented to do the book a ticket, cancellation of ticket 
 
 # HIGH LEVEL REQUIREMENTS:-
 
-
-
+|  ID  |                                                DESCRIPTION                                               | CATEGORY       | STATUS      |
+|:----:|:--------------------------------------------------------------------------------------------------------:|----------------|-------------|
+| HR01 | Every online booking needs to be associated with an account                                              | Functional     | In progress |
+| HR02 | One account cannot be associated with multiple users                                                     | Functional     | In progress |
+| HR03 | Search should be enable users to find the most recent and relevant booking options                       | Functional     | In progress |
+| HR04 | System should enable users to book                                                                       | Functional     | In progress |
+| HR05 | System should only allow user to move to payment only when mandatory field such as date, time, location  | Functional     | In progress |
+| HR06 | System should consider time zone synchronization when accepting bookings from different time zones       | non functional | In progress |
+| HR07 | Booking confirmation should be sent to user to the specified contact details                             | non functional | In progress |
 # LOW LEVEL REQUIREMENTS:-
-
+|  ID  |                                          DESCRIPTION                                          | HLR ID | STATUS      |
+|:----:|:---------------------------------------------------------------------------------------------:|--------|-------------|
+| LR01 | Use of captcha and encryption to avoid bus from booking tickets                               | HR01   | In progress |
+| LR02 | Search results should populate within acceptable time limits                                  | HR02   | In progress |
+| LR03 | User should be helped approximately to fill in the mandatory fields, inaces of invalid input  | HR03   | In progress |
+| LR04 | System should accept payments via different payments methods, like PayPal, wallets, cards,etc | HR04   | In progress |
+| LR05 | System should visually confirm as well send booking confirmation to the user's contact        | HR07   | In progress |
 
 
 
