@@ -60,7 +60,8 @@ WHEN:This Bus Reservation System is very useful wherever we have we can easily b
 
 HOW:This project is implemented to do the book a ticket, cancellation of ticket and to implement easy process to the people.
 
-# SWOT ANALYSIS:-
+# SWOT ANALYSIS:
+
 # Strengths:
 
 1.Advantages of the organization.
