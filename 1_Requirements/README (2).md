@@ -131,13 +131,16 @@ Advanced Features for Bus Ticket Booking App.
 | HR07 | user can be able to cancelling the tickets              | Technical | IMPLEMENTED |
 | HR08 | User can be able to access the login page               | Technical | IMPLEMENTED |
 # LOW LEVEL REQUIREMENTS:-
-|  ID  |                                          DESCRIPTION                                          | HLR ID | STATUS      |
-|:----:|:---------------------------------------------------------------------------------------------:|--------|-------------|
-| LR01 | Use of captcha and encryption to avoid bus from booking tickets                               | HR01   | In progress |
-| LR02 | Search results should populate within acceptable time limits                                  | HR02   | In progress |
-| LR03 | User should be helped approximately to fill in the mandatory fields, inaces of invalid input  | HR03   | In progress |
-| LR04 | System should accept payments via different payments methods, like PayPal, wallets, cards,etc | HR04   | In progress |
-| LR05 | System should visually confirm as well send booking confirmation to the user's contact        | HR07   | In progress |
+|  ID  |                                     DESCRIPTION                                    | HLR ID | STATUS(IMPLEMENTED/IN PROGRESS) |
+|:----:|:----------------------------------------------------------------------------------:|--------|---------------------------------|
+| LR01 | user must choose the option for list of available bus in the reservation system    | HR01   | IMPLEMENTED                     |
+| LR02 | same operation for accessing number of seats in the reservation system             | HR02   | IMPLEMENTED                     |
+| LR03 | same operation for to view the list of passengers name in the reservation system   | HR03   | IMPLEMENTED                     |
+| LR04 | same operation for choosing number of avaliable seats in the reservation system    | HR04   | IMPLEMENTED                     |
+| LR05 | same operation for to view the passengers ticket details in the reservation system | HR05   | IMPLEMENTED                     |
+| LRO6 | same operation for confirmed the available seats                                   | HR06   | IMPLEMENTED                     |
+| LR07 | same operation for cancelling the booked ticket by user                            | HRO7   | IMPLEMENTED                     |
+| LR08 | user can view the welcoming page to accessing all operation easily                 | HR08   | IMPLEMENTED                     |
 
 
 
