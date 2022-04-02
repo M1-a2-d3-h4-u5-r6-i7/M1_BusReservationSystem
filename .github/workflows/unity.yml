@@ -1,19 +1,19 @@
-name: Unit testing
-
 on:
-  push:
-    branches: [ main ]
   pull_request:
-    branches: [ main ]
-
+  push:
 jobs:
-  build:
-
+  build-test:
+    name: Build & Test
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
-    - name: Install Cunit
-      run: sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
-    - name: make test
-      run:  make test -C BusReservationSystem_C/3_Implementation/
+      - uses: actions/checkout@v2     # checkout the repo
+      - run: npm ci                   # install packages
+      - run: npm test                 # run tests (configured to use jest-junit reporter)
+
+      - name: Test Report
+        uses: dorny/test-reporter@v1
+        if: success() || failure()    # run this step even if previous step failed
+        with:
+          name: JEST Tests            # Name of the check run which will be created
+          path: reports/jest-*.xml    # Path to test results
+          reporter: jest-junit        # Format of test results
