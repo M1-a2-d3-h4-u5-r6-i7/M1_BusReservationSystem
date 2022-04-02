@@ -120,16 +120,16 @@ Advanced Features for Bus Ticket Booking App.
 6.Weakness that threaten and that business.
 
 # HIGH LEVEL REQUIREMENTS:-
-
-|  ID  |                                                DESCRIPTION                                               | CATEGORY       | STATUS      |
-|:----:|:--------------------------------------------------------------------------------------------------------:|----------------|-------------|
-| HR01 | Every online booking needs to be associated with an account                                              | Functional     | In progress |
-| HR02 | One account cannot be associated with multiple users                                                     | Functional     | In progress |
-| HR03 | Search should be enable users to find the most recent and relevant booking options                       | Functional     | In progress |
-| HR04 | System should enable users to book                                                                       | Functional     | In progress |
-| HR05 | System should only allow user to move to payment only when mandatory field such as date, time, location  | Functional     | In progress |
-| HR06 | System should consider time zone synchronization when accepting bookings from different time zones       | non functional | In progress |
-| HR07 | Booking confirmation should be sent to user to the specified contact details                             | non functional | In progress |
+|  ID  |                       DESCRIPTION                       | Category  | STATUS      |
+|:----:|:-------------------------------------------------------:|-----------|-------------|
+| HR01 | user can be able to access bus list                     | Technical | IMPLEMENTED |
+| HR02 | user cane be able to access number of seats             | Technical | IMPLEMENTED |
+| HRO3 | user can be able to see the list of passengers name     | Technical | IMPLEMENTED |
+| HRO4 | user cane be able to choose the bus seats               | Technical | IMPLEMENTED |
+| HRO5 | user can be able to show passengers ticket details      | Technical | IMPLEMENTED |
+| HR06 | user can be able to show confirming the available seats | Technical | IMPLEMENTED |
+| HR07 | user can be able to cancelling the tickets              | Technical | IMPLEMENTED |
+| HR08 | User can be able to access the login page               | Technical | IMPLEMENTED |
 # LOW LEVEL REQUIREMENTS:-
 |  ID  |                                          DESCRIPTION                                          | HLR ID | STATUS      |
 |:----:|:---------------------------------------------------------------------------------------------:|--------|-------------|
