@@ -50,16 +50,22 @@ records
 7.Requires internet access.
 
 # 4W'S and 1H
-WHO:This Bus Reservation System is an application is used by the all the public.
+WHO:People can book bus tickets or seats from anywhere using an online bus reservation system. People who are busy with their current employment benefit the most from an online booking system.
 
 WHAT:The Online Bus Ticket Reservation System is a web based application that allows visitors check bus ticket availability, buy bus ticket and pay the bus ticket online.  This system is established for all the home/office users after gaining access from the administrator.
 
-WHERE:The Bus Reservation System is nowadays essential for every one from kids to grandparents and anywhere we use theses software application .They can use this software as the purpose of booking cancellation of tickets.
+WHERE:Used in all over the world.
 
-WHEN:This Bus Reservation System is very useful wherever we have we can easily book a ticket by using our mobile phone or something else.These software will solve so may of problems like standing on line in bus stand for hour and hour by these process we can easily book a ticket.
+WHEN:Customers can use a bus ticket reservation system to reserve tickets online. The Bus Reservation System is a user-friendly online bus booking system that automates online ticket purchases.
 
-HOW:This project is implemented to do the book a ticket, cancellation of ticket and to implement easy process to the people.
-
+HOW:Social Media Login.
+Online Payment Modes.
+GPS Integration.
+Enable Real-Time Seat Availability.
+Include a Chat Window.
+Offer Complete Authentication.
+Plan the Booking Management Module.
+Advanced Features for Bus Ticket Booking App.
 # SWOT ANALYSIS:
 
 # Strengths:
